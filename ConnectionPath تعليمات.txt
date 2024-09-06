@@ -1,0 +1,16 @@
+jdbc:sqlite:\\\\DESKTOP-SHH46HM\\SharedFile\\pharmacy.db
+
+1- يجب ان يبدأ ب 
+jdbc:sqlite:
+
+2- لكل back slash (\) 
+يتم اضافه واحد اخر له 
+بمعنى فلنفترض انه المسار مثل 
+
+C:\Users\Gerges_Hanna\NetBeansProjects\pharmacy.db
+
+فيكون النتيجه مثل 
+C:\\Users\\Gerges_Hanna\\NetBeansProjects\\pharmacy.db
+
+والشكل النهائي مثل 
+jdbc:sqlite:C:\\Users\\Gerges_Hanna\\NetBeansProjects\\pharmacy.db
